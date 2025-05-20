@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vertical Platformer</title>
+        <script src="https://unpkg.com/kaboom@3000.0.1/dist/kaboom.js"></script>
+        <script type="module" src="main.js"></script>
+        <style>
+            html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                width: 100vw;
+                height: 100vh;
+                background: #223a5e; /* тёмно-синий фон */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+            }
+            canvas {
+                display: block;
+                box-shadow: 0 0 32px #0008;
+                background: #223a5e;
+                /* Запретить растягивание, сохранить чёткость */
+                image-rendering: pixelated;
+            }
+        </style>
+    </head>
+    <body></body>
+</html>
